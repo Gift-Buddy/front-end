@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Header />
       <div className="flex items-center justify-center gap-10">
-        <div className="flex flex-col items-start justify-center gap-2">
+        <div className="flex select-none flex-col items-start justify-center gap-2">
           <span className={`${annie.className} text-5xl text-black_text`}>
             Who is my
           </span>
@@ -21,7 +21,7 @@ export default function Home() {
             neque sed augue consequat mattis. Etiam venenatis, libero porta
             pretium ornare, augue odio.
           </span>
-          <button className="mt-5 w-full rounded-full bg-blue_dark py-5 text-3xl font-bold text-white transition-all hover:scale-105">
+          <button className="mt-5 w-3/4 rounded-full bg-blue_dark py-3 text-3xl font-bold text-white transition-all hover:scale-105">
             Let&apos;s play
           </button>
         </div>
